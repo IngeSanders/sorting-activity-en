@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sorting Activity</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      min-height: 800px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Drag the images into the correct order</h1>
+  <ul id="sortable">
+    <li><img src="img/image1.jpg" alt="Image 1"></li>
+    <li><img src="img/image2.jpg" alt="Image 2"></li>
+    <li><img src="img/image3.jpg" alt="Image 3"></li>
+  </ul>
+
+  <button id="submit-btn">Submit</button>
+  <div id="feedback" style="margin-top: 20px; font-weight: bold;"></div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+ul#sortable {
+  list-style: none;
+  padding: 0;
+  width: 80%;
+  margin: auto;
+}
+ul#sortable li {
+  margin: 10px;
+  padding: 10px;
+  cursor: move;
+  border: 2px dashed #ccc;
+}
+ul#sortable img {
+  max-width: 100%;
+  height: auto;
+}
